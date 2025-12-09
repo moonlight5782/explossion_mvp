@@ -1,3 +1,11 @@
 {
-    "gitdoc.enabled": true
+    "gitdoc.enabled": true,
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*",
+                "cmd": "${workspaceFolder}/smart_auto_sync.bat"
+            }
+        ]
+    }
 }
